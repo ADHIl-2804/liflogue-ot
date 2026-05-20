@@ -13,14 +13,23 @@ background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, F
 }
 
 .nav {
+    backdrop-filter: blur(12px);
+    justify-content: space-between;
     font-size: xx-small;
     color: #333;
     border-radius: 15px;
     height: 10vh;
     width: 100vw;
     background-color: #f6dede;
-    position: fixed;
+    position:sticky;
+     z-index: 1000;
+     display:flex;
     
+}
+.nav:hover{
+    background-color:black;
+    color: rgb(203, 77, 77);
+    transition: 0.2s;
 }
 .navl{
     margin-top: 2.3%;
@@ -36,8 +45,9 @@ background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, F
    
     left: 15vw;
     position: absolute;
-    
+  
 }
+
 #ab{
     left: 60vw;
     position: absolute;
@@ -93,6 +103,18 @@ background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, F
     border: 4px solid black;
     color: #333;
 }
+#div11:hover{
+    background-color:black;
+    color: white;
+    transition: 0.2s;
+    border:4px solid white;
+}
+#div12:hover{
+    background-color:black;
+    color: white;
+    transition: 0.2s;
+    border:4px solid white;
+}
 .main12{
     background-color: #f6dede;
     position: absolute;
@@ -102,4 +124,55 @@ background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, F
     top:25vh;
     border-radius: 20px;
     border: 4px solid black;
+}
+#h11{
+    font-size: 2.5rem;
+    margin-top: 10%;
+    text-align: center;
+}
+    #h11:hover {
+        color: #f18d95;
+    }
+
+#p11{
+    font-size: 1.2rem;
+    margin-top: 10%;
+    text-align: center;
+}
+#p11:hover{
+    color: #f18d95;
+}
+#h12{
+    font-size: 2.5rem;
+    margin-top: 10%;
+    text-align: center;
+}
+    #h12:hover {
+        color: #FFC371;
+    }
+#p12{
+    font-size: 1.2rem;
+    margin-top: 10%;
+    text-align: center;
+}
+#p12:hover{
+    color: #FFC371;
+}
+.foot{
+    background: #FF5F6D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFC371, #FF5F6D);
+    position: relative;
+    background-color: #f6dede;
+    height: 100vh;
+    width: 100vw;
+    
+}
+#footp{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    top: 60%;
+    padding: 1rem;
+    color: #333;
 }
