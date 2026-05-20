@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head {
+background: #FF5F6D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 1rem;
+    position: relative; 
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav {
+    font-size: xx-small;
+    color: #333;
+    border-radius: 15px;
+    height: 10vh;
+    width: 100vw;
+    background-color: #f6dede;
+    position: fixed;
+    
+}
+.navl{
+    margin-top: 2.3%;
+    left:2vw ;
+    position: absolute;
+     color: rgb(203, 77, 77);
+}
+#navh{
+    left: 10vw;
+    position: absolute;
+}
+#ho{
+   
+    left: 15vw;
+    position: absolute;
+    
+}
+#ab{
+    left: 60vw;
+    position: absolute;
+    
+}
+#no{
+    left: 45vw;
+    position: absolute;
+}
+#co{
+    left:29vw;
+    position: absolute;
+}
+#navh:hover, #co:hover {
+    background-color:#f7cb8c;
+    color: white;
+    transition: 0.2s;
+}
+#no:hover{
+    background-color: #f18d95;
+    color: white;
+    transition: 0.2s;
+}
+#ho:hover{
+    background-color:#FFC371 ;
+    color: white;
+    transition: 0.2s;
+}
+#ab:hover{
+    background-color:#FF5F6D ;
+    color: white;
+    transition: 0.2s;
+}
+.an{
+    font-size: large;
+    color:#333;
+    text-decoration: none;
+}
+#logo{
+    position: static;
+    position: absolute;
+    left: 2%;
+    top: 2px;
+}
+.main11{
+    background-color: #f6dede;
+    position: absolute;
+    width: 40vw;
+    height:70vh;
+    margin-left: 7%;
+    top:25vh;
+    border-radius: 20px;
+    border: 4px solid black;
+    color: #333;
+}
+.main12{
+    background-color: #f6dede;
+    position: absolute;
+    width: 40vw;
+    height:70vh;
+    margin-left: 53%;
+    top:25vh;
+    border-radius: 20px;
+    border: 4px solid black;
+}
