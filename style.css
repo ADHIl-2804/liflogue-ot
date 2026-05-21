@@ -1,3 +1,22 @@
+@media only screen and (max-width: 1400px) and (min-width: 1200px){
+    .navl{
+        left: 5vw;
+    }
+    #navh{
+        left: 15vw;
+    }
+    #ho{
+        left: 25vw;
+    }
+    #no{
+        left: 35vw;
+    }
+    #co{
+        left: 45vw;
+    }
+    #ab{
+        left: 55vw;
+    }
 
 *{
     margin: 0px;
@@ -219,4 +238,5 @@ background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, F
 }
 #foot12:hover{
     color:white;
+}
 }
