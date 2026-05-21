@@ -223,7 +223,7 @@ background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, F
 }
 #pfoot{
     font-size: 1.2rem;
-    margin-top: 5%;
+    margin-top: 3%;
     text-align: center;
 }
 #pfoot:hover{
@@ -239,4 +239,20 @@ background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, F
 #foot12:hover{
     color:white;
 }
+#footb{
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #333;
+    background-color: #f6dede;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+#footb:hover{
+    background-color:rgb(138, 24, 237);
+    color: white;
+    transition: 0.2s;
+    border:4px solid white;
 }
