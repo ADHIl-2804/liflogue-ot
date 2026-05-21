@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1400px) and (min-width: 1200px){
+/* @media only screen and (max-width: 1400px) and (min-width: 1200px){ */
     .navl{
         left: 5vw;
     }
@@ -23,14 +23,16 @@
     padding: 0px;
 }
 body{
+    max-width: 100%;
+    overflow-x: hidden;
     background: #FF5F6D;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .head {
-/* background: #FF5F6D;  /* fallback for old browsers 
-background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 
-background: linear-gradient(to right, #FFC371, #FF5F6D); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FF5F6D;  /* fallback for old browsers*/ 
+    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);
+    background: linear-gradient(to right, #FFC371, #FF5F6D); 
     padding:0rem;
     position: relative; 
     height: 100vh;
@@ -262,5 +264,4 @@ background: linear-gradient(to right, #FFC371, #FF5F6D); W3C, IE 10+/ Edge, Fire
     color: white;
     transition: 0.2s;
     border:4px solid white;
-}
 }

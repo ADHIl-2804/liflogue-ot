@@ -1,0 +1,121 @@
+.navl{
+        left: 5vw;
+    }
+    #navh{
+        left: 15vw;
+    }
+    #ho{
+        left: 25vw;
+    }
+    #no{
+        left: 35vw;
+    }
+    #co{
+        left: 45vw;
+    }
+    #ab{
+        left: 55vw;
+    }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+    background: #FF5F6D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.head {
+    background: #FF5F6D;  /* fallback for old browsers*/ 
+    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);
+    background: linear-gradient(to right, #FFC371, #FF5F6D); 
+    padding:0rem;
+    position: relative; 
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav {
+    nav-right: 0%;
+    backdrop-filter: blur(12px);
+    justify-content: space-between;
+    font-size: xx-small;
+    color: #333;
+    border-radius: 15px;
+    height: 10vh;
+    width: 80vw;
+    background-color: #fee5e5;
+    position:sticky;
+     z-index: 1000;
+     display:flex;
+    
+}
+.nav:hover{
+    background-color:black;
+    color: rgb(203, 77, 77);
+    transition: 0.2s;
+}
+.navl{
+    margin-top: 2.3%;
+    left:2vw ;
+    position: absolute;
+     color: rgb(203, 77, 77);
+}
+#navh{
+    left: 10vw;
+    position: absolute;
+}
+#ho{
+   
+    left: 15vw;
+    position: absolute;
+  
+}
+
+#ab{
+    left: 60vw;
+    position: absolute;
+    
+}
+#no{
+    left: 45vw;
+    position: absolute;
+}
+#co{
+    left:29vw;
+    position: absolute;
+}
+#navh:hover, #co:hover {
+    background-color:#f7cb8c;
+    color: white;
+    transition: 0.2s;
+}
+#no:hover{
+    background-color: #f18d95;
+    color: white;
+    transition: 0.2s;
+}
+#ho:hover{
+    background-color:#FFC371 ;
+    color: white;
+    transition: 0.2s;
+}
+#ab:hover{
+    background-color:#FF5F6D ;
+    color: white;
+    transition: 0.2s;
+}
+.an{
+    font-size: large;
+    color:#333;
+    text-decoration: none;
+}
+#logo{
+    position: static;
+    position: absolute;
+    left: 2%;
+    top: 2px;
+}
