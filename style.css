@@ -22,25 +22,31 @@
     margin: 0px;
     padding: 0px;
 }
-.head {
-background: #FF5F6D;  /* fallback for old browsers */
+body{
+    background: #FF5F6D;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding: 1rem;
+}
+.head {
+/* background: #FF5F6D;  /* fallback for old browsers 
+background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 
+background: linear-gradient(to right, #FFC371, #FF5F6D); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding:0rem;
     position: relative; 
     height: 100vh;
     width: 100vw;
 }
 
 .nav {
+    nav-right: 0%;
     backdrop-filter: blur(12px);
     justify-content: space-between;
     font-size: xx-small;
     color: #333;
     border-radius: 15px;
     height: 10vh;
-    width: 100vw;
-    background-color: #f6dede;
+    width: 80vw;
+    background-color: #fee5e5;
     position:sticky;
      z-index: 1000;
      display:flex;
@@ -179,6 +185,7 @@ background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, F
     color: #FFC371;
 }
 .foot{
+    padding: 0rem;
     background: #FF5F6D;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #FFC371, #FF5F6D);
@@ -255,4 +262,5 @@ background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, F
     color: white;
     transition: 0.2s;
     border:4px solid white;
+}
 }
